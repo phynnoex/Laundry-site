@@ -11,7 +11,7 @@ menuIcon.addEventListener('click',function () {
         document.querySelector(".nav-bar").style.display = 'none';
         ismenu = true
     }
-    console.log(ismenu)
+    
     //checking
 })
 

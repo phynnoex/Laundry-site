@@ -1,0 +1,455 @@
+/* initially set padding in the webpage to zero */
+*{
+padding: 0;
+margin: 0;
+font-family: montserrat;
+}
+/* main container for the div and using flex box to style them horizontally */
+.logo-head{
+    height: 60px;
+    background-color: #143027;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.side-logo{
+    flex-grow: 1
+}
+.nav-lag{
+    display: none;
+}
+.nav-acct{
+    display: none;
+}
+.nav-bar{
+    display: none;
+    justify-content: center;
+    text-align: center; 
+    background-color: #143027;  
+}
+.nav-bar ul{
+    list-style-type: none;
+    padding: 10px;
+    width: 100vw;
+}
+.nav-bar li{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #225b48;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.nav-bar li:hover{
+    box-shadow: 2px 2px black;
+    background-color: #3c6f5e
+}
+
+
+.logo{
+    flex-grow: 6;
+    color: white;
+    text-align: center;
+}
+.menu{
+    flex-grow: 1;
+}
+.icon-border{
+    width: 28px;
+    background-color: #225b48;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+
+}
+.fa-solid{
+    color: white;
+    font-size: 20px;
+}
+
+/* styling for section 1 */
+.section-hero{
+    padding: 20px;
+    /* width: 100%; */
+    
+    background-color: #379e7b;
+}
+.feautures-border{
+    text-align: center;
+    background-color: yellow;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 1.1em;
+    color: black;
+    margin-top: 40px;
+}
+.hero-header{
+    margin: 10px 20px;
+}
+
+/* second section containing the mission and vision statement */
+.section-2{
+    background-color: #143027;
+    padding: 20px;
+}
+.image-border{
+    width: 100%;
+    background-color: rgba(255, 255, 255,0.2);
+    padding: 10px;
+    margin-top: 20px;
+}
+.image-top{
+    background-image: url(../images/family-together.jpg);
+    width: inherit;
+    height: 130px;
+    border-radius: 15px;
+    background-size: cover;
+}
+.card-parent{
+    display: flex;
+    width: inherit;
+}
+
+.team-card{
+    width:inherit;
+    height: 180px;
+    background-color: #0c2c4c;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    border-radius: 15px;
+    font-size: 0.8em;
+}
+.team-card h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.card-parent p{
+    font-size: 10px;
+}
+.dedication-card{
+    width: inherit;
+    height: 180px;
+    background-color: #143027;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    border-radius: 15px;
+    font-size: 0.8em;
+}
+.dedication-card h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.card-top{
+    background-image: url(../images/office-workers-working-together-as-team.jpg);
+    width: inherit;
+    height: 150px;
+    border-radius: 15px;
+    background-size: cover;
+}
+.image-side{
+    background-image: url(../images/cleaning.jpg);
+    width: 100vw;
+    height: 170px;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.dedication-card-2{
+    width: inherit;
+    height: 130px;
+    background-color: rgba(184, 189, 50);
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    border-radius: 15px;
+    font-size: 0.8em;
+}
+.dedication-card-2 h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.mission-card{
+    color: white;
+    background-color: #b8bd32;
+    width: inherit;
+    padding-top: 20px;
+}
+.mission-card h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 200;
+    
+}
+.mission-card h3{
+    margin: 0px 20px;
+
+}
+.mission-card ul{
+    padding: 40px;
+
+}
+.mission-card li{
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+.mission-image{
+    display: none;
+}
+.vision-image{
+    display: none;
+}
+.vision-card{
+    color: white;
+    background-color: #225b48;
+    width: inherit;
+    padding-top: 20px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.vision-card h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 200;
+    
+}
+.vision-card h3{
+    margin: 0px 20px;
+
+}
+.vision-card ul{
+    padding: 40px;
+
+}
+.vision-card li{
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+
+/* styling for the footer of the page */
+footer{
+    padding: 20px;
+}
+footer h3{
+    color: #225b48;
+    margin-top: 20px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    
+}
+.footer-bottom{
+    margin: 20px 0px;
+}
+.footer-bottom .fa-brands{
+    margin-top: 10px;
+    color: #225b48;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* styling for large screens */
+@media only screen and (min-width: 900px) {
+    /* nav */
+    .side-logo{
+        display: none;
+    }
+    .menu{
+        display: none;   
+    }
+    nav{
+        padding: 0px 120px;
+        background-color:#379e7b;
+    }
+    .logo-head{
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 0px 0px 20px 20px;
+    }
+    .logo{
+        flex-grow: 0;
+    }
+    .nav-acct{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-acct ul{
+        display: flex;
+        list-style-type: none;
+        margin: auto;
+    }
+    .nav-acct li{
+        padding: 15px;
+  
+    }
+    .nav-acct a{
+        text-decoration: none;
+        color: #379e7b;
+    }
+    .nav-lag{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-lag ul{
+        display: flex;
+        list-style-type: none;
+        padding: 20px;
+    }
+    .nav-lag li{
+        padding: 15px;
+    }
+    .nav-lag a{
+        text-decoration: none;
+        color: #379e7b;
+    }
+    .nav-lag a:hover{
+        text-decoration: underline;
+        color: #ffffff;
+    }
+
+    /* first section */
+    .feautures-border{
+        margin-top: 60px;
+    }
+    .hero-header{
+        font-size: 2em;
+        margin: auto;
+        width: 40vw;
+        margin-bottom: 100px;
+    }
+
+    /* section-2 */
+    .card-parent p{
+        font-size: 1em;
+    }
+    .hero-div{
+        display: flex;
+        
+        justify-content: center;
+        height: 600px;
+    }
+    .image-border{
+        max-width: 600px;
+    }
+    .image-top{
+        height: 200px;
+    }
+    .left-card{
+        height: 305px;
+    }
+    .card-top{
+        height: 300px;
+    }
+    .image-side{
+        height: 245px;
+    }
+    .dedication-card-2{
+        height: 205px;
+    }
+    .mission-card{
+        display: flex;
+        margin: 60px 120px;
+        padding: 30px 20px;
+        position: relative;
+        
+    }
+    .vision-card{
+        display: flex;
+        margin: 60px 120px;
+        padding: 30px 30px;
+        position: relative;
+        flex-direction: row-reverse;
+        
+    }
+    .mission-card h3{
+        font-size: 25px;
+    }
+    .vision-card h3{
+        font-size: 25px;
+    }
+    .mission-head{
+        width: 160vw;  
+    }
+    .vision-head{
+        width: 100vw;  
+        text-align: right;
+    }
+    .vision-card h4{
+        margin-right: 20px;
+    }
+    .vision-image{
+        display: block;
+        z-index: 0;
+        width: 300px;
+        position: absolute;
+        margin-top: -270px;
+        margin-left: 80px;
+        opacity: 20%;
+    }
+    .mission-image{
+        display: block;
+        z-index: 2;
+        width: 350px;
+        position: absolute;
+        margin-top: -300px;
+        right: 110px;
+        opacity: 20%;
+    }
+
+    /* footer */
+    .footer-contents{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-right{
+        display: flex;
+    }
+    .footer-right div{
+        padding: 0px 30px;
+    }
+    .footer-left p{
+        width: 700px;
+    }
+    .footer-bottom{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px;
+        align-items: center;
+    }
+    .footer-bottom .fa-brands{
+        color: #225b48;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+}

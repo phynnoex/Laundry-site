@@ -1,0 +1,181 @@
+
+/* styles for the signup and signin page */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+.signupDetails{
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+
+}
+.full-width{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #afd2c5;
+    color: black;
+}
+.full-width::placeholder {
+    color: black;
+}
+label{
+    display: none;
+}
+.labelTerms{
+    display: contents;
+    color: black !important;; 
+}
+input[type = "checkbox"]{
+    margin-top: 40px;
+    background-color: #1b6c51;
+}
+input[type = "submit"]{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: hsl(160, 48%, 42%);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.signupDetails h2{
+    color: #01442c;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    
+}
+.signinDetails h2{
+    color: #01442c;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    
+}
+.signupDetails p{
+    margin-top: 150px;
+    text-align: center;
+    color: black;
+}
+section{
+    
+    background-image: url(../images/asian-staff-waitress-wearing-protection-face-mask-apron-rubber-glove-cleaning-table-with-disinfectant-alcohol-spray-prevent-infection-coronavirus-cafe-coffee-shop-new-normal-concept.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.dark-bg{
+    display: flex;
+    background-color: rgba(55,158, 123, 0.5);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.signup-container{
+    background-image: url(../images/backgroundSignup.png);
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    box-shadow: 2px 2px 20px rgb(4, 30, 21);
+}
+.emptyLogo{
+    display: none;
+    width: 50%;
+    background-color: rgba(55,158, 123, 0.1);
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.emptyLogo h3{
+    text-shadow: 1px 1px 2px black;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+.social-icon{
+    background-color: rgba(55,158, 123, 0.3);
+    height: 50px;
+    width: 60px;
+    margin: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.socials a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover .social-icon{
+    background-color: #01442c;
+    color: white;
+    box-shadow: 2px 2px 5px #032f1f;
+}
+/* style for large screens */
+@media only screen and (min-width: 900px) {
+    .signupDetails{
+        background-color: white;
+        width: 50%;
+        padding: 70px;
+    
+    }
+    .signupDetails h2{
+        margin-top: 0px;
+        color: #01442c;
+        margin-bottom: 30px;
+        
+    }
+    .signup-container{
+        background-image: url(../images/backgroundSignup.png);
+        background-size: contain;
+        width: 80vw;
+        height: 80vh;
+        display: flex;
+        box-shadow: 2px 2px 20px rgb(4, 30, 21);
+    }
+    .full-width{
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #afd2c5;
+        color: black;
+    }
+    input[type = "submit"]{
+        height: 45px;
+    }
+    .signupDetails p{
+        margin-top: 20px;
+        text-align: center;
+        color: black;
+    }
+    .emptyLogo{
+        display: none;
+        width: 50%;
+        background-color: rgba(55,158, 123, 0.1);
+        padding: 20px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+}
+

@@ -12,5 +12,6 @@ menuIcon.addEventListener('click',function () {
         ismenu = true
     }
     console.log(ismenu)
+    //checking
 })
 
